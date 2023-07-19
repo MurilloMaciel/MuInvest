@@ -1,0 +1,8 @@
+[versions]
+asd = "3.0.5"
+
+[libraries]
+groovy-core = { module = "asd", version.ref = "asd" }
+
+[plugins]
+versions = { id = "asd", version = "asd" }
