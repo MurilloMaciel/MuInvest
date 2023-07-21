@@ -1,4 +1,4 @@
-package maciel.murillo.muinvest.ui.theme
+package maciel.murillo.muinvest.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

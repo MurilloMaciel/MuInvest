@@ -1,4 +1,4 @@
-package maciel.murillo.muinvest
+package maciel.murillo.muinvest.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import maciel.murillo.muinvest.ui.theme.MuInvestTheme
+import maciel.murillo.muinvest.presentation.theme.MuInvestTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
