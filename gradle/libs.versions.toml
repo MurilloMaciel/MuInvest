@@ -1,0 +1,47 @@
+[versions]
+kotlinVersion = "1.7.1"
+android = "8.0.2"
+kotlin = "1.7.20"
+ksp = "1.9.0-1.0.12"
+
+androidxCore = "1.10.1"
+androidxLifecycleRuntime = "2.6.1"
+composeActivity = "1.7.2"
+compose = "1.4.3"
+composeMaterial3 = "1.1.1"
+junit = "4.13.2"
+testJunit = "1.1.5"
+espressoCore = "3.5.1"
+uiJunit = "1.4.3"
+
+
+#***************************************************************************************************
+
+[libraries]
+#sqldelight-runtime = { module = "app.cash.sqldelight:runtime", version.ref = "sqlDelightVersion" }
+#sqldelight-android-driver = { module = "app.cash.sqldelight:android-driver", version.ref = "sqlDelightVersion" }
+#sqldelight-native-driver = { module = "app.cash.sqldelight:native-driver", version.ref = "sqlDelightVersion" }
+#sqldelight-coroutines-extensions = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqlDelightVersion" }
+
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidxLifecycleRuntime" }
+compose-activity = { module = "androidx.activity:activity-compose", version.ref = "composeActivity" }
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "compose" }
+compose-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "composeMaterial3" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+compose-ui-test = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "compose" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "testJunit" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCore" }
+androidx-compose-junit = { module = "androidx.compose.ui:ui-test-junit", version.ref = "uiJunit" }
+
+#***************************************************************************************************
+
+[plugins]
+#sqldelight = { id = "app.cash.sqldelight", version.ref = "sqlDelightVersion" }
+android-application = { id = "com.android.application", version.ref = "android" }
+android-library = { id = "com.android.library", version.ref = "android" }
+kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

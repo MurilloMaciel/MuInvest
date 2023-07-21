@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "MuInvest"
-include ':app'
+include(":app")
